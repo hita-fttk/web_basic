@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>ChangeForwardServletMapping</servlet-name>
+		<servlet-class>web_basic.ChangeForwardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeForwardServletMapping</servlet-name>
+		<url-pattern>/ChangeForwardServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
